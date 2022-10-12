@@ -1,0 +1,69 @@
+@import url("https://fonts.googleapis.com/css?family=Josefin+Sans");
+
+html {
+  font-size: 62.5%;
+}
+
+:root {
+  font-family: Josefin Sans, Inter, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 24px;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #9e3636;
+}
+
+body {
+  margin: 0;
+}
+
+.App {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+h1 {
+  font-size: 5rem;
+  line-height: 1.1;
+}
+
+.tasks__item {
+  font-size: 2rem;
+}
+
+/** MEDIA QUERIES **/
+
+@media only screen and (max-width: 600px) {
+  html {
+    font-size: 48%;
+  }
+  .App {
+    width: 80%;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  html {
+    font-size: 50%;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  html {
+    font-size: 52%;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  html {
+    font-size: 56.25%;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  html {
+    font-size: 75%;
+  }
+}
