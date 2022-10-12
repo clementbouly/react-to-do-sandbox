@@ -3,7 +3,7 @@ import "./App.css";
 import { Task } from "./models/Task";
 
 function App() {
-  const [tasks, setTasks] = useState([
+  const [tasks, setTasks] = useState<Task[]>([
     {
       id: 1,
       label: "Apprendre React",
