@@ -1,7 +1,10 @@
 @import url("https://fonts.googleapis.com/css?family=Josefin+Sans");
 
+$test : 62.5%;
+$color-10 : #9e3636;
+
 html {
-  font-size: 62.5%;
+  font-size: $test;
 }
 
 :root {
@@ -9,7 +12,7 @@ html {
   line-height: 24px;
   font-weight: 400;
   color: rgba(255, 255, 255, 0.87);
-  background-color: #9e3636;
+  background-color: $color-10 ;
 }
 
 body {
